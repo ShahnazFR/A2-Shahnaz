@@ -834,6 +834,76 @@ font-size: 1.24rem;
 
 }
 
+footer{
+    width: 375px;
+height: 309px;
+}
+
+.f1 img{
+    width: 40px;
+height: 46.673px;
+margin-top: 22px;
+margin-right: 10px;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.fpara{
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 287px;
+margin-left: 20px;
+/* margin-bottom: 30px; */
+font-size: .90rem;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+margin-bottom: 16px;
+}
+
+hr{
+    width: 335px;
+height: 1px;
+}
+
+.last{
+    color: #131318;
+font-family: Inter;
+font-size: 1rem;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+}
+.fheader{
+font-weight: 800;
+
+font-size: 1.25rem;
+margin-top: 0px;
+
+
+
+}
+.f1 img{
+    width: 28.724px;
+height: 33.516px;
+/* flex-shrink: 0;
+    width: 40px;
+height: 46.673px; */
+/* flex-shrink: 0; */
+margin-top: 0px;
+margin-right: 10px;
+/* padding-bottom: 0px; */
+}
+.travel{
+    color:#FF5400;
+}
+
 
 
         }
