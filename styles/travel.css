@@ -8,9 +8,30 @@ body{
 .primary-btn{
     border-radius: 8px;
 background: #FF5400;
+width: 174px;
+height: 52px;
+border-radius: 8px;
+
+
+color: #FFF;
+text-align: center;
+
+font-size: 1rem;
+border: none;
 }
 
+
+.common{
+    color: rgba(19, 19, 24, 0.70);
+/* font-family: Mulish; */
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
 /* Section styles are here */
+
+/* 1.Section Banner */
 .container{
     height: 500px;
     background: linear-gradient(rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)),
@@ -18,20 +39,28 @@ background: #FF5400;
     background-repeat: no-repeat;
      background-size: cover;
     border-radius: 16px;
+    margin-bottom: 100px;
 }
  .banner-container-2{ 
-    width: 750px;
+    width: 800px;
     height: 84px;
       display: flex;
-justify-content: space-evenly;
+      /* justify-content: center; */
+/* justify-content: space-evenly; */
 align-items: center;
     border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
-margin: 0 auto;
+margin-left: 185px;
 gap: 24px;
-padding-left: 3px;
+padding-left: 16px;
  } 
+
+ .banner-container-2 input [type="text"]{
+    width: 174px;
+    height: 52px;
+ }
 .banner-title{
+    width: 596px;
     color: #FFF;
 font-size: 4rem;
 font-weight: 800;
@@ -39,6 +68,7 @@ text-align: center;
 padding-top: 106px;
 padding-left: 18px;
 margin-bottom: 0px;
+padding-left: 287px;
 }
 .banner-description{
     width: 676px;
@@ -55,8 +85,8 @@ margin-bottom: 45px;
 }
 
 .ban-same, select{
-    width: 150px;
-height: 42px;
+    width: 174px;
+height: 52px;
 border-radius: 8px;
 background: #FFF;
 color: rgba(19, 19, 24, 0.50);
@@ -72,23 +102,167 @@ select option {
     font-size: 1rem;
 }
 .find-btn{
-    border-radius: 8px;
-background: #FF5400;
-width: 150px;
-height: 42px;
-
-border-radius: 8px;
+    /* border-radius: 8px; */
+/* background: #FF5400; */
+/* width: 150px;
+height: 42px; */
 padding-left: 16px;
 
-color: #FFF;
-text-align: center;
-
-font-size: 1rem;
-border: none;
 }
 
 
+/* 2.Section Our Tours */
+   
+ .our-tour{ 
+    margin-bottom: 100px;
+} 
+    
+.d1{
+    display: flex;
+}
+
+.start-container{
+    width: 540px;
+    height: 550px;
+}
+
+.tour-title , .destination-header{
+    color: #131318;
+/* text-align: center; */
+/* font-family: Mulish; */
+font-size: 2.5rem;
+/* font-style: normal; */
+font-weight: 800;
+/* line-height: normal; */
+margin-bottom: 24px;
+margin-top: 0px;
+}
+
+.tour-p1 {
+    margin-bottom: 24px;
+    margin-right: 53px;
+}
+.three-ul {
+padding-left: 30px;
+margin-bottom: 24px;
+margin-right: 105px;
+}
+.three-ul li{
+    margin-bottom: 16px;
+}
+
+.tour-p2{
+margin-bottom: 32px;
+margin-right: 100px;
+}
+
+.tour-content>img{
+    border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* Destination styles are here */
+
+.destination-header{
+   margin-left: 345px;
+}
+
+.destination-para {
+
+    width: 643px;
+    height: 52px;
+
+    margin-bottom: 48px;
+
+
+
+    text-align: center;
+
+padding-left: 255px;
+font-size: 1rem;
+font-weight: 400;
+
+color: rgba(19, 19, 24, 0.70);
+line-height: 26px;
+}
+
+
+.mi,.snk,.bb{
+    display: flex;
+    /* margin-right: 24px; */
+    margin-bottom: 24px;
+}
+ .image-container img{
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 100%;
+    margin-right: 24px;
+} 
+
+.maldives{
+    position: absolute;
+    right: 980px;
+    top: 1590px;
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+}
+
+.indonesia{
+    position: absolute;
+    right: 390px;
+    top: 1590px;
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+}
+
+.srilanka{
+    position: absolute;
+    right: 1100px;
+    top: 1900px;
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+}
+.north{
+    position: absolute;
+    right: 600px;
+    top: 1900px;
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+}
+
+.kashmir{
+    position: absolute;
+    right: 250px;
+    top: 1900px;
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+}
+
+.bd{
+    position: absolute;
+    right: 1020px;
+    top: 2230px;
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+}
+.bandorban{
+    position: absolute;
+    right: 450px;
+    top: 2230px;
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+}
 /* Media Queries */
+
+
+/* 1.Section Banner Media */
 @media screen and (max-width:600px){
     body{
         
@@ -97,7 +271,7 @@ border: none;
     }
     .container{
         width: 335px;
-        height: 483px;
+        height: 500px;
          background: linear-gradient(rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url('../images/banner.png') center/cover no-repeat;
          
         border-radius: 16px;
@@ -110,15 +284,20 @@ border: none;
     }
     .banner-container-2{
         flex-direction: column;
-        margin: 0 auto;
-        width: 287px;
-        height: 288px;
+        margin-left: 24px;
+        width: 270px;
+        height: 250px;
+        
+        margin-top: 32px;
+        
+        padding-top: 16px;
     }
     .banner-title{
         width: 205px;
         height: 28px;
         font-size: 1.375rem;
         padding-top: 32px;
+        padding-left: 60px;
     }
     .banner-description{
         font-size: .875rem;
@@ -128,5 +307,157 @@ border: none;
         padding: 2px;
         margin-bottom: 0px;
     }
+    .ban-same, select{
+        width: 220px;
+        height: 52px;
+        
+    }
+    .find-btn{
+        margin-bottom: 16px;
+    }
+    .d1{
+        flex-direction: column;
+        width: 375px;
+    }
 
-}
+    .tour-title{
+        font-size: 1.25rem;
+    }
+
+    .common{
+        font-size: 0.875rem;
+        width: 309px;
+        line-height: 16px;
+        /* padding-left: 15px; */
+
+    }
+
+    .three-ul{
+        width: 315px;
+    }
+
+
+    .tour-column-1{
+        margin-bottom: 24px;
+    }
+
+    .tour-content img{
+    width:345px;
+    height: 342px;
+    }
+    
+
+     .destination{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+
+     }
+     .destination-header{
+        font-size: 1.25rem;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-left: 65px;
+     }
+     
+
+     .destination-para{
+        width: 309px;
+        height: 72px;
+        padding-left: 20px;
+     }
+
+
+        .mi{
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+         .mi img{
+            width: 335px;
+            height: 176px;
+        }
+         
+        .snk{
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+            .snk img{
+                width: 335px;
+                height: 176px;
+            }
+        .bb{
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+            .bb img{
+                width: 335px;
+                height: 176px;
+            }
+            .maldives{
+                position: absolute;
+                right: 390px;
+                top: 1840px;
+                color: #FFF;
+            font-size: 1.25rem;
+            font-weight: 800;
+            }
+            .indonesia{
+                position: absolute;
+                right: 390px;
+                top: 2030px;
+                color: #FFF;
+            font-size: 1.25rem;
+            font-weight: 800;
+            }
+            .srilanka{
+                position: absolute;
+                right: 390px;
+                top: 2235px;
+                color: #FFF;
+            font-size: 1.25rem;
+            font-weight: 800;
+            }
+
+            .north{
+                position: absolute;
+                right: 365px;
+                top: 2425px;
+                color: #FFF;
+            font-size: 1.25rem;
+            font-weight: 800;
+            }
+            .kashmir{
+                position: absolute;
+                right: 400px;
+                top: 2610px;
+                color: #FFF;
+            font-size: 1.25rem;
+            font-weight: 800;
+            }
+            .bd{
+                position: absolute;
+                right: 380px;
+                top: 2810px;
+                color: #FFF;
+            font-size: 1.25rem;
+            font-weight: 800;
+            }
+            .bandorban{
+                position: absolute;
+                right: 375px;
+                top: 3005px;
+                color: #FFF;
+            font-size: 1.25rem;
+            font-weight: 800;
+
+            }
+            
+            
+
+        }
+      
