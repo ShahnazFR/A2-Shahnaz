@@ -21,7 +21,7 @@ border: none;
 }
 
 
-.common{
+.common, .why-description{
     color: rgba(19, 19, 24, 0.70);
 /* font-family: Mulish; */
 font-size: 1rem;
@@ -113,7 +113,7 @@ padding-left: 16px;
 
 /* 2.Section Our Tours */
    
- .our-tour{ 
+ .our-tour, .choose{ 
     margin-bottom: 100px;
 } 
     
@@ -126,7 +126,7 @@ padding-left: 16px;
     height: 550px;
 }
 
-.tour-title , .destination-header{
+.tour-title , .destination-header,.why-header{
     color: #131318;
 /* text-align: center; */
 /* font-family: Mulish; */
@@ -259,6 +259,68 @@ font-weight: 800;
 font-size: 1.75rem;
 font-weight: 800;
 }
+
+
+/* Card Styles */
+.why{
+    margin-bottom: 100px;
+}
+.why-description{
+    width: 643px;
+    height: 52px;
+    padding-left: 255px;
+    margin-bottom: 48px;
+}
+.why-container-1{
+    text-align: center;
+}
+.semi{
+    display: flex;
+    gap: 24px;
+}
+
+.join{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.mini{
+    width: 573px;
+height: 284px;
+/* flex-shrink: 0; */
+border-radius: 16px;
+padding-left: 32px;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.small-img{
+    width: 64px;
+    height: 64px;
+}
+.one{
+    /* border-radius: 16px; */
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+
+.two{
+    /* border-radius: 16px; */
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.three{
+    /* border-radius: 16px; */
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-left: 298px;
+}
+
+.small-description{
+    width: 486px;
+    height: 78px;
+}
 /* Media Queries */
 
 
@@ -361,7 +423,7 @@ font-weight: 800;
      }
      
 
-     .destination-para{
+     .destination-para,.why-description{
         width: 309px;
         height: 72px;
         padding-left: 20px;
@@ -457,7 +519,36 @@ font-weight: 800;
 
             }
             
-            
+            .why-header{
+                /* margin-left: 0px; */
+                font-size: 1.25rem;
+                margin-right: 800px;
+        /* margin-left: 0px; */
+        margin-top: 0px;
+        /* padding-left: 65px; */
+            }
+            .semi{
+                flex-direction: column;
+                gap: 16px;
+            }
+            .mini{
+                width: 335px;
+height: 180;
+/* flex-shrink: 0; */
+            }
+
+            .small-description {
+                width: 271px;
+                height: 120px;
+            }
+            .join{
+                /* flex-direction: column; */
+                flex-wrap: nowrap;
+            }
+
+            .three{
+                margin-left: 0px;
+            }
 
         }
       
