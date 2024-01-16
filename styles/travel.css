@@ -10,6 +10,7 @@ body{
 background: #FF5400;
 }
 
+/* Section styles are here */
 .container{
     height: 500px;
     background: linear-gradient(rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)),
@@ -50,62 +51,57 @@ text-align: center;
 padding-left: 255px;
 font-size: 1rem;
 font-weight: 400;
-/* border: 2px solid white; */
 margin-bottom: 45px;
 }
 
 .ban-same, select{
     width: 150px;
 height: 42px;
-/* flex-shrink: 0; */
 border-radius: 8px;
 background: #FFF;
 color: rgba(19, 19, 24, 0.50);
-/* text-align: center; */
-/* font-family: Mulish; */
 font-size: 1rem;
-/* font-style: normal; */
+
 font-weight: 400;
 border: none;
-/* line-height: normal; */
+
 padding-left: 16px;
-/* padding-top: 16px; */
+
 }
 select option {
     font-size: 1rem;
 }
-.primary-btn{
+.find-btn{
     border-radius: 8px;
 background: #FF5400;
 width: 150px;
 height: 42px;
-/* flex-shrink: 0; */
+
 border-radius: 8px;
 padding-left: 16px;
-/* padding-top: 16px; */
+
 color: #FFF;
 text-align: center;
-/* font-family: Mulish; */
+
 font-size: 1rem;
+border: none;
 }
 
 
 /* Media Queries */
 @media screen and (max-width:600px){
     body{
-        /* width: 335px;
-        height: 483px; */
+        
         border-radius: 16px;
-/* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+
     }
     .container{
         width: 335px;
         height: 483px;
          background: linear-gradient(rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url('../images/banner.png') center/cover no-repeat;
-         /* background-size: 25%; */
-        /*background-position: center center; */
+         
         border-radius: 16px;
-    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) ,url(../images/banner.png)); */
+    
     }
     .banner-container{
         display: flex;
