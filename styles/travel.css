@@ -22,12 +22,70 @@ body {
 .common,
 .why-description {
   color: rgba(19, 19, 24, 0.7);
-  /* font-family: Mulish; */
+  
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
 }
+
+/* Nav styles are here */
+.nav-container{
+  display: flex;
+  gap: 10px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 53px;
+  margin-bottom: 30px;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  color: #424247;
+  text-decoration: none;
+  margin-left: 44px;
+  font-size: 1.125rem;
+font-weight: 400;
+}
+
+.menu-icon{
+  display: none;
+}
+
+.a-1{
+  color: #FF5400;
+font-weight: 700;
+}
+
+.nav-img{
+  width: 60px;
+height: 56.008px;
+padding-top: 18px;
+margin-right: 10px;
+
+}
+.travel-name{
+  color: #131318;
+
+font-size: 2rem;
+
+font-weight: 800;
+
+}
+ 
+
+
 /* Section styles are here */
 
 /* 1.Section Banner */
@@ -44,8 +102,7 @@ body {
   width: 800px;
   height: 84px;
   display: flex;
-  /* justify-content: center; */
-  /* justify-content: space-evenly; */
+  
   align-items: center;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
@@ -101,10 +158,7 @@ select option {
   font-size: 1rem;
 }
 .find-btn {
-  /* border-radius: 8px; */
-  /* background: #FF5400; */
-  /* width: 150px;
-height: 42px; */
+  
   padding-left: 16px;
 }
 
@@ -205,7 +259,7 @@ height: 42px; */
 .maldives {
   position: absolute;
   right: 980px;
-  top: 1590px;
+  top: 1740px;
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
@@ -214,7 +268,7 @@ height: 42px; */
 .indonesia {
   position: absolute;
   right: 390px;
-  top: 1590px;
+  top: 1735px;
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
@@ -223,7 +277,7 @@ height: 42px; */
 .srilanka {
   position: absolute;
   right: 1100px;
-  top: 1900px;
+  top: 2050px;
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
@@ -231,7 +285,7 @@ height: 42px; */
 .north {
   position: absolute;
   right: 600px;
-  top: 1900px;
+  top: 2050px;
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
@@ -240,7 +294,7 @@ height: 42px; */
 .kashmir {
   position: absolute;
   right: 250px;
-  top: 1900px;
+  top: 2050px;
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
@@ -249,7 +303,7 @@ height: 42px; */
 .bd {
   position: absolute;
   right: 1020px;
-  top: 2230px;
+  top: 2380px;
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
@@ -257,7 +311,7 @@ height: 42px; */
 .bandorban {
   position: absolute;
   right: 450px;
-  top: 2230px;
+  top: 2380px;
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
@@ -282,7 +336,7 @@ height: 42px; */
 }
 
 .join {
-  /* align-items: center; */
+ 
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -290,7 +344,7 @@ height: 42px; */
 .mini {
   width: 573px;
   height: 284px;
-  /* flex-shrink: 0; */
+  
   border-radius: 16px;
   padding-left: 32px;
   padding-top: 32px;
@@ -301,19 +355,19 @@ height: 42px; */
   height: 64px;
 }
 .one {
-  /* border-radius: 16px; */
+  
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
 }
 
 .two {
-  /* border-radius: 16px; */
+  
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
 }
 
 .three {
-  /* border-radius: 16px; */
+  
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
   margin-left: 298px;
@@ -324,17 +378,15 @@ height: 42px; */
   height: 78px;
 }
 /* Newsletter section starts here! */
-/* .neco{
-    position: static;
-} */
+
 .newsletter-container {
   display: flex;
   gap: 24px;
 }
 .newsletter {
   width: 474px;
-  /* height: 422px; */
-  /* flex-shrink: 0; */
+  
+  
   border-radius: 16px;
   border: 1px solid #ff5400;
   padding: 22px;
@@ -343,19 +395,19 @@ height: 42px; */
 
 .news-header {
   color: #131318;
-  /* font-family: Mulish; */
+  
   font-size: 1.5rem;
-  /* font-style: normal; */
+  
   font-weight: 800;
-  /* line-height: normal; */
+  
 }
 .news-para {
   width: 350px;
   height: 52px;
   color: #5a5a5d;
-  /* font-family: Mulish; */
+  
   font-size: 1rem;
-  /* font-style: normal; */
+  
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   margin-bottom: 24px;
@@ -367,17 +419,15 @@ hr {
   background: rgba(19, 19, 24, 0.1);
   border: none;
   margin-bottom: 24px;
-  /* padding-right: 0px; */
+  
 }
 
-/* .newsletter-img{
-    position: static;
-} */
+
 
 .newsletter-img img {
   width: 672px;
   height: 422px;
-  /* flex-shrink: 0; */
+ 
   border-radius: 16px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -386,22 +436,22 @@ hr {
   width: 324px;
   height: 120px;
   transform: rotate(-19.628deg);
-  /* flex-shrink: 0; */
+  
   border-radius: 16px;
   background: #ff5400;
   position: absolute;
-  top: 3768px;
-  left: 1014px;
+  top: 3915px;
+  left: 1053px;
 }
 
 .tag .website {
   color: #fff;
   text-align: center;
-  /* font-family: Mulish; */
+  
   font-size: 1.5rem;
-  /* font-style: normal; */
+  
   font-weight: 400;
-  /* line-height: normal; */
+  
   padding-top: 0px;
   margin-top: 17px;
   margin-bottom: 0px;
@@ -409,17 +459,17 @@ hr {
 
 .tag .news-tag {
   color: #fff;
-  /* font-family: Mulish; */
+  
   font-size: 2rem;
-  /* font-style: normal; */
+  
   font-weight: 800;
-  /* line-height: normal; */
-  /* margin-top: 0px; */
+ 
+  
   margin-left: 42px;
   margin-bottom: 100px;
   margin-top: 10px;
   padding-bottom: 150px;
-  /* margin-bottom: 100px; */
+  
 }
 
 .same-input {
@@ -441,9 +491,9 @@ input[type="email"] {
 .subscribe-btn {
   width: 413px;
   height: 52px;
-  /* flex-shrink: 0; */
+
   border-radius: 8px;
-  /* background: #FF5400; */
+  
   margin-top: 2px;
   font-size: 1.25rem;
   font-weight: 600;
@@ -452,12 +502,9 @@ input[type="email"] {
 /* Footer Starts */
 footer {
   width: 1440px;
-  /* height: 502px; */
-  /* flex-shrink: 0; */
-  /* width: 1440px; */
-  /* width: 100%; */
+  
   height: 502px;
-  /* flex-shrink: 0; */
+  
   background: rgba(19, 19, 24, 0.05);
   margin-top: 100px;
   margin-left: 0px;
@@ -466,7 +513,7 @@ footer {
 .f1 {
   display: flex;
   justify-content: center;
-  /* align-items:center ; */
+  
   padding-top: 100px;
   margin-bottom: 0px;
 }
@@ -474,7 +521,7 @@ footer {
 .f1 img {
   width: 40px;
   height: 46.673px;
-  /* flex-shrink: 0; */
+  
   margin-top: 22px;
   margin-right: 10px;
 }
@@ -482,7 +529,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* align-items: center; */
+  
   gap: 16px;
   margin-bottom: 50px;
 }
@@ -490,9 +537,9 @@ footer {
 .fpara {
   color: #5a5a5d;
   text-align: center;
-  /* font-family: Mulish; */
+  
   font-size: 1rem;
-  /* font-style: normal; */
+  
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   width: 769px;
@@ -511,7 +558,7 @@ hr {
   color: #131318;
   font-family: Inter;
   font-size: 1rem;
-  /* font-style: normal; */
+  
   font-weight: 300;
   line-height: normal;
   text-align: center;
@@ -522,24 +569,48 @@ hr {
   font-size: 2rem;
   font-style: normal;
   font-weight: 800;
-  /* line-height: normal; */
-  /* padding-top: 10opx; */
+  
 }
 .travel {
   color: #ff5400;
 }
 
-/* .single-img{
-    height: 900px;
-} */
+
 /* Media Queries */
 
 /* 1.Section Banner Media */
 @media screen and (max-width: 600px) {
   body {
-    /* width: 335px;  */
+    width: 335px; 
     border-radius: 16px;
-    margin: 0 0;
+    margin: 0 auto;
+  }
+
+  nav{
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .nav-img{
+    width: 28.724px;
+height: 33.516px;
+
+margin-right: 0px;
+  }
+  .travel-name{
+    margin-top: 22px;
+font-size: 1.2rem;
+font-weight: 800;
+margin-left: 0px;
+
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .menu-icon{
+    display: contents;
   }
 
   .container {
@@ -607,7 +678,6 @@ hr {
     font-size: 0.875rem;
     width: 309px;
     line-height: 16px;
-    /* padding-left: 15px; */
   }
 
   .three-ul {
@@ -680,24 +750,24 @@ hr {
   }
   .maldives {
     position: absolute;
-    right: 390px;
-    top: 1635px;
+    right: 260px;
+    top: 1710px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 800;
   }
   .indonesia {
     position: absolute;
-    right: 390px;
-    top: 1830px;
+    right: 260px;
+    top: 1910px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 800;
   }
   .srilanka {
     position: absolute;
-    right: 390px;
-    top: 2025px;
+    right: 260px;
+    top: 2100px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 800;
@@ -705,32 +775,32 @@ hr {
 
   .north {
     position: absolute;
-    right: 365px;
-    top: 2225px;
+    right: 230px;
+    top: 2300px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 800;
   }
   .kashmir {
     position: absolute;
-    right: 400px;
-    top: 2410px;
+    right: 260px;
+    top: 2480px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 800;
   }
   .bd {
     position: absolute;
-    right: 380px;
-    top: 2610px;
+    right: 235px;
+    top: 2680px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 800;
   }
   .bandorban {
     position: absolute;
-    right: 375px;
-    top: 2805px;
+    right: 240px;
+    top: 2875px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 800;
@@ -741,12 +811,12 @@ hr {
   }
 
   .why-header {
-    /* margin-left: 0px; */
+    margin-left: 95px;
+    width: 154px;
+    height: 25px;
     font-size: 1.25rem;
     margin-right: 800px;
-    /* margin-left: 0px; */
     margin-top: 0px;
-    /* padding-left: 65px; */
     margin-bottom: 0px;
   }
 
@@ -760,7 +830,6 @@ hr {
   .mini {
     width: 335px;
     height: 180;
-    /* flex-shrink: 0; */
   }
 
   .small-description {
@@ -768,7 +837,6 @@ hr {
     height: 120px;
   }
   .join {
-    /* flex-direction: column; */
     flex-wrap: nowrap;
   }
 
@@ -782,14 +850,12 @@ hr {
 
   .newsletter-container {
     flex-direction: column;
-    /* margin-bottom: 24px; */
     gap: 24px;
     margin-bottom: 160px;
   }
   .newsletter {
     width: 335px;
     height: 353px;
-    /* flex-shrink: 0; */
     padding: 15px 17px;
   }
   .hr {
@@ -800,8 +866,6 @@ hr {
   .subscribe-btn {
     width: 288px;
     height: 52px;
-    /* padding-bottom: 24px; */
-    /* flex-shrink: 0; */
   }
   .subscribe-btn {
     margin-bottom: 24px;
@@ -822,7 +886,6 @@ hr {
   .newsletter-img {
     width: 370px;
     height: 290px;
-    /* flex-shrink: 0; */
   }
 
   .newsletter-img img {
@@ -834,26 +897,21 @@ hr {
     height: 79.268px;
 
     position: absolute;
-    top: 4940px;
-    left: 150px;
+    top: 5018px;
+    left: 285px;
   }
   .tag .website {
     font-size: 0.9rem;
-    /* font-style: normal; */
     font-weight: 400;
   }
 
   .tag .news-tag {
-    /* color: #FFF; */
-    /* font-family: Mulish; */
     font-size: 1.24rem;
   }
 
   footer {
     width: 375px;
     height: 309px;
-    /* margin-top: 24px; */
-
     padding-top: 0px;
   }
 
